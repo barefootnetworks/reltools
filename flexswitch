@@ -217,10 +217,6 @@ def getDaemonsInfo (baseDir, selectedDmns = True) :
                      'runlevel' : 13,
                      'params': '-params=' + baseDir + '/params'},
 
-                    {'name': 'vxland',
-                     'runlevel' : 14,
-                     'params': '-params=' + baseDir + '/params'},
-                    
                     {'name': 'ndpd',
                      'runlevel' : 15,
                      'params': '-params=' + baseDir + '/params'},

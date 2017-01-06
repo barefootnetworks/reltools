@@ -41,8 +41,10 @@ def setupCliDeps(gitProto='http'):
         userRepoPrefix   = 'git@github.com:%s/' % (usrName)
         remoteRepoPrefix = 'git@github.com:%s/' % ('OpenSnaproute')
     else:
-        userRepoPrefix = 'https://github.com/%s/' % (usrName)
-        remoteRepoPrefix = 'https://github.com/%s/' % ('OpenSnaproute')
+#        userRepoPrefix = 'https://github.com/%s/' % (usrName)
+#        remoteRepoPrefix = 'https://github.com/%s/' % ('OpenSnaproute')
+        userRepoPrefix = 'https://github.com/%s/' % ('barefootnetworks')
+        remoteRepoPrefix = 'https://github.com/OpenSnaproute/'
     _setupGitRepo('extPkgs',
                     setupHandler().getExtSrcDir(),
                     userRepoPrefix,
@@ -191,8 +193,8 @@ def setupSRRepos(gitProto='http', comp=None):
                             'git lfs fetch',
                             'git lfs checkout'
                             ]
-                    for cmd in commandsToCheckout:
-                        local(cmd)
+#                    for cmd in commandsToCheckout:
+#                        local(cmd)
 def installThrift():
     TMP_DIR = ".tmp"
     thriftVersion = '0.9.3'

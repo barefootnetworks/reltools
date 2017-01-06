@@ -98,6 +98,6 @@
          "bin-AsicdBcm" : 1
      },
 	 "SnapRouteOrg" : "snaproute",
-	 "PublicRepos" : [ "docs", "l2", "l3", "utils", "asicd", "bin-AsicdBcm", "config", "models", "infra", "flexSdk", "apps"],
+	 "PublicRepos" : [ "docs", "l2", "l3", "utils", "config", "models", "infra", "flexSdk", "apps"],
 	 "PrivateRepos" : [ "docs", "l2", "l3", "utils", "asicd", "config", "models", "infra", "flexSdk", "apps", "vendors", "test", "opticd"]
 }
